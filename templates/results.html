@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body style="background-color:black;">
+ {% if mysol%}
+   <div class="card bg-darl style="width: 18rem;">
+    <div class="card-body">
+<h5 class="card-title"> {{mysol}}.</h5>
+        <div class="box2">
+         <img src="login.jpg" alt="Description of the image">
+        </div>
+    </div>
+    {% endif%}
+</body>
+</html>

@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+body{
+   background-image:url("login.jpg");
+    position:center;
+    background-size: cover;
+}
+
+
+.center{
+    text-wrap: wrap;
+    color:#0CAE38;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 350px ;
+    margin-top:80px;
+    letter-spacing: 3.5px;
+    font-size:25px;
+}
+.main{
+    /* background-color: aqua; */
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left:350px;
+    width: 600px;;
+    
+}
+
+.box{
+    width:70%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:25px;
+     border: 1px solid green;
+    border-radius:10px;
+    padding:10px
+}
+input{
+background-color: inherit;
+    border:none;
+    width: 100%;
+    outline: none;
+    height:20px;
+
+}
+.submit{
+    position: absolute;
+    margin-left:130px;
+    background-color: #204E51;
+    flex-wrap: wrap;
+    height:30px;
+    width:200px;
+    color: beige;
+    border-radius:10px;
+}
+
+.card {
+    background-color: green; /* Change background color as desired */
+    border: 1px solid #ccc; /* Add border */
+    padding: 15px; /* Add padding for spacing */
+    border-radius: 5px; /* Add rounded corners */
+    margin: 50px auto; /* Center the card horizontally */
+    width: 300px; /* Adjust width as desired */
+}
+
+.card-title {
+    font-weight: bold;
+}
+ .box2{
+ width:auto;
+ height:100px;
+
+ }
